@@ -27,7 +27,7 @@ void GameState::render() {
 }
 //------------------------------------------------------------------------------------------------------
 void GameState::keyPressed(int key){
-
+	player->keyPressed(key);
 }
 //------------------------------------------------------------------------------------------------------
 void GameState::mousePressed(int x, int y, int button){
@@ -35,7 +35,7 @@ void GameState::mousePressed(int x, int y, int button){
 }
 //------------------------------------------------------------------------------------------------------
 void GameState::keyReleased(int key){
-
+	player->keyReleased(key);
 }
 //------------------------------------------------------------------------------------------------------
 void GameState::reset(){
