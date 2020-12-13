@@ -1,5 +1,6 @@
 #include "State.h"
 #include "Block.h"
+#include "Player.h"
 
 class GameState: public State{
     public: 
@@ -13,4 +14,5 @@ class GameState: public State{
 
 	private:
 		vector<Block*> blocks;
+		Player* player;
 };
